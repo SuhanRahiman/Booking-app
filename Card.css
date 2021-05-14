@@ -1,0 +1,36 @@
+.place-card-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.place-card{
+    width: 300px;
+    margin: 50px;
+    transition: all 0.8s;
+    background-color: chartreuse;
+    border-radius: 10px;
+}
+.place-card:hover{
+    transform: scale(1.1);
+    transition: all 0.8s;
+}
+.place-card img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+}
+.place-meta{
+    padding: 10px;
+    color: black;
+}
+.meta-info{
+    font-size: 20px;
+}
+.rating{
+    color: whitesmoke;
+}
+.rating .one,
+.rating .two,
+.rating .three{
+    color: black;   
+}

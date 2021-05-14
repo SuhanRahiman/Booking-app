@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Girassol', cursive;
+}
+body{
+    background: url(/aeroplane.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    position: fixed;
+    width: 100%;
+    background: #091921;
+}
+.burger .line{
+    background-color: azure;
+    height: 3px;
+    width: 25px;
+    margin: 3px;
+}
+.logo h4 a{
+    text-decoration: none;
+    font-size: 30px; 
+    color: azure;   
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+.nav-links a{
+    text-decoration: none;
+    color: azure;
+    font-size: 20px;
+}
+.burger{
+    display: none;
+}
+.search-card-container{
+    padding: 100px 70px;
+}
+.search-card{
+    background-color: royalblue;
+    font-size: 25px;
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.search-card-title{
+    font-size: 28px;
+    font-weight: 700;
+    color: snow;
+}
+.form-group{
+    max-width: 100%;
+    margin-top: 15px;
+}
+.form-group input,
+.form-group select{
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 1px solid beige;
+}
+.search-label{
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: beige;
+}
+.search-btn{
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background: blue;
+    border-radius: 3px;
+    border: none;
+}
